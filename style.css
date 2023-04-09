@@ -5,6 +5,10 @@ body{
     background: var(--tg-theme-bg-color);
 }
 
+img {
+    width: 100%;
+}
+
 .container{
     max-width: 390px;
 }
@@ -12,13 +16,10 @@ body{
 .inner {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px;
 }
 
-img {
-    width: 190px;
-}
 
 .item {
     text-align: center;
+    margin: 3px;
 }
