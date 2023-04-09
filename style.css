@@ -6,12 +6,17 @@ body{
 }
 
 .container{
-    width: 100%;
+    max-width: 390px;
 }
 
 .inner {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px;
+}
+
+img {
+    width: 190px;
 }
 
 .item {
