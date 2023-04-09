@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: var(--tg-theme-text-color);
+    background: var(--tg-theme-bg-color);
+}
+
+.container{
+    max-width: 600px;
+}
+
+.inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+img {
+    width:  40pc;
+}
+
+.item {
+    text-align: center;
+}
